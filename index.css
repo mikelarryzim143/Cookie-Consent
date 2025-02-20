@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Nunito";
+}
+
+.cookie-consent {
+    width: 20%;
+    height: 35%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.icon{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+.cookie{
+    width: 70px;
+}
+.close{
+    width: 15px;
+    height: 15px;
+}
+.cookie-content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-consent p {
+    margin: 0;
+}
+
+.cookie-consent a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.cookie-consent button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000000;
+    font-family: "Nunito";
+    font-size: large;
+    font-weight:bold;
+}
+
+.cookie-consent button:hover {
+    background-color: #f5f5f5;
+}
