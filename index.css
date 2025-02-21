@@ -31,6 +31,11 @@ body {
     width: 15px;
     height: 15px;
 }
+.close:hover{
+    width: 18px;
+    height: 18px;
+    cursor:pointer;
+}
 .cookie-content{
     width: 80%;
     display: flex;
